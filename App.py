@@ -16,11 +16,11 @@ import os
 class AgenticRAGSystem:
     def __init__(self):
         # LLM Configuration
-        genai.configure(api_key="AIzaSyB1luPxiGaDFNYazTFZMWlwz1Qrg_11Vn8")
+        genai.configure(api_key="gemini api key")
         self.llm = genai.GenerativeModel('gemini-1.5-pro')
         
         # Web Search Configuration
-        self.tavily = TavilyClient(api_key="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")
+        self.tavily = TavilyClient(api_key="tavily api key ")
         
         # Vector Database Configuration
         self.chroma_client = chromadb.Client()
