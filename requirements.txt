@@ -1,0 +1,9 @@
+sounddevice
+numpy
+torch
+chromadb
+google-generativeai
+tavily
+gradio
+soundfile
+faster-whisper
